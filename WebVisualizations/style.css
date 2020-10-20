@@ -10,7 +10,7 @@
 }
 .navbar{
     max-height: 65px;
-    background-color: white;
+    background-color: white !important;
     font-size: 13px;
     color:black;
     font-weight: bold;
@@ -76,4 +76,34 @@ img{
 
 
 /* MOBILE */
+@media(max-width: 850px){
 
+    .navbar-expand-lg{
+    background-color: #0bada6 !important;
+    }
+    
+    .navbar{
+        max-height: none;
+        padding: inherit;
+    }
+    
+    .navbar div{
+        margin: inherit;
+        background-color: white; 
+    }
+    
+    .navbar-brand{
+        padding: 10px !important;
+        margin-left: 10px;
+    }
+    
+    button{
+        margin-right: 20px;
+    }
+    
+    button:focus {
+        outline: 1px dotted;
+        outline: 5px auto -webkit-focusring-color;
+        }
+    
+    }
