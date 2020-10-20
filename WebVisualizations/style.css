@@ -7,7 +7,9 @@ body{
 /* NAVBAR */
 .navbar{
     max-height: 57px;
-    color: white;
+    background-color: white;
+    font-size: 13px;
+    color:black;
 }
 .navigation .navbar-brand{
     background-color: #0bada6;
