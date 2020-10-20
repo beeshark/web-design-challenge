@@ -1,36 +1,79 @@
-/* BODY */
-body{
-    background-color: #ededed;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 /* NAVBAR */
-.navbar{
-    max-height: 57px;
-    background-color: white;
-    font-size: 13px;
-    color:black;
-}
+
 .navigation .navbar-brand{
     background-color: #0bada6;
-    margin-left: 0px;
     padding: inherit;
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:white;
     text-decoration: none;
 }
+.navbar{
+    max-height: 65px;
+    background-color: white;
+    font-size: 13px;
+    color:black;
+    font-weight: bold;
+}
+.active, .dropdown-menu .dropdown-item:active a:hover {
+  background-color: white;
+}
+
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {
+  background-color: lightsteelblue;
+}
+
+.nav-link:hover {
+  background-color: #ededed;
+ }
+
+
+/* BODY */
+body{
+    background-color: #ededed;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 /* TITLE */
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 10px;
+    color:#0bada6;
+}
 
 /* TEXT */
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding: 1rem;
+}
 
 /* CONTAINER */
+.box{
+    padding: 1.1rem;
+    margin-top: 50px;
+    background-color: white;
+}
 
 /* TABLES */
+.table{
+    border-top-color: white;
+}
 
 /* IMAGES */
+img{
+    width: 100%;
+}
+.active, .panel:hover{
+    border-style: solid;
+}
+.vizualization{
+    width: 50%;
+}
 
 /* FOOTER */
 
+
 /* MOBILE */
+
